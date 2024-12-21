@@ -1,0 +1,69 @@
+.amazon-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(19, 25, 33);
+  height: 55px;
+  align-items: center;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.amazon-logo {
+  width: 110px;
+}
+.search-box {
+  display: flex;
+  flex: 1;
+  max-width: 500px;
+}
+.search-input {
+  width: 100%;
+  border: none;
+  height: 30px;
+}
+.right-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.cart-counter {
+  color: orange;
+  position: absolute;
+  right: 25px;
+  bottom: 21px;
+}
+.returns {
+  color: white;
+  width: 80px;
+}
+.product-image {
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.product-container {
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.product-title {
+  width: 180px;
+}
+.select-option {
+  margin-bottom: 20px;
+}

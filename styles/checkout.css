@@ -1,0 +1,30 @@
+.checkout-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+body {
+  padding-left: 100px;
+}
+.order-checkout-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  max-width: 700px;
+}
+.product-checkout-options {
+  display: flex;
+  flex-direction: row;
+}
+.product-checkout-image {
+  width: 100px;
+}
